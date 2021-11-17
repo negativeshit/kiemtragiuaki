@@ -64,7 +64,6 @@ class _baoState extends State<bao> {
                   ),
                 ),
               ),
-              SizedBox(height: 20)
             ],
           ),
         );
