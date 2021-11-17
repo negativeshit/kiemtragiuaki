@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/home.dart';
 
-class baoo extends StatefulWidget {
-  const baoo({Key? key}) : super(key: key);
+class bao extends StatefulWidget {
+  const bao({Key? key}) : super(key: key);
 
   @override
-  _baooState createState() => _baooState();
+  _baoState createState() => _baoState();
 }
 
-class _baooState extends State<baoo> {
+class _baoState extends State<bao> {
   int count = 0;
   late Size size;
   int i = 0;
