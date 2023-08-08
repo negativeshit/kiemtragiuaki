@@ -1,0 +1,22 @@
+public void actionPerformed(ActionEvent e) {
+     String s1=textField_2.getText();
+        String s2=textField_3.getText();
+   String s3=textField_4.getText();
+   String s4=textField_5.getText();
+   String s5=textField_6.getText();
+				
+ String st=s1+";"+s2+";"+s3+";"+s4+";"+s5;
+ if (d==-1){
+ if (s1.equalsIgnoreCase("")==true)
+JOptionPane.showMessageDialog(btnNewButton_4, "Nhập mã nhân viên");
+    else
+      if ((ktmanv(s1)==0))
+                JOptionPane.showMessageDialog(btnNewButton_4, "Mã nhân viên đã tồn tại. Yêu cầu nhập lại");
+	else
+	{
+	  a.add(st);
+	  luu(st);
+	  hienthi();
+	}
+}
+}
